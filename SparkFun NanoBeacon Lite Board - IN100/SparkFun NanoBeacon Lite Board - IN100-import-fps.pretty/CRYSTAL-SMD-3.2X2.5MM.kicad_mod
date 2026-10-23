@@ -1,0 +1,223 @@
+(footprint "CRYSTAL-SMD-3.2X2.5MM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3.2 x 2.5mm SMD Crystal Package\n\nExample: http://www.digikey.com/product-search/en?keywords=SER3627TR-ND SX-32S")
+	(property "Reference" "REF**"
+		(at 0 -1.524 0)
+		(layer "F.SilkS")
+		(uuid "7987ae5e-a6a0-4942-b5f3-2291292d3cd7")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "CRYSTAL-SMD-3.2X2.5MM"
+		(at 0 1.524 0)
+		(layer "F.Fab")
+		(uuid "31fc9c35-d975-45a3-939b-a681fbca53a2")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e125774-8277-4f84-8046-97e569f4c464")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "901c7905-ad24-4890-aa37-cdca815ba131")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.727 0.15)
+		(end -1.727 -0.15)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e19dcec0-1f7d-4aa0-b30c-b8f1c9d52993")
+	)
+	(fp_line
+		(start -0.4 -1.377)
+		(end 0.4 -1.377)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e311903-dc44-4d8d-abe4-390d079cc314")
+	)
+	(fp_line
+		(start 0.4 1.377)
+		(end -0.4 1.377)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d62ed662-b202-4857-8f7e-64f009a23f5d")
+	)
+	(fp_line
+		(start 1.727 -0.15)
+		(end 1.727 0.15)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0b8b971-976b-41b0-bf06-d72814ef25fd")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12a890aa-4fed-49b6-9fe6-cf67806126d8")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d6f264b-7c4c-4d84-999a-5b307074ab4c")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cdebf5a-2dff-453b-a43d-faa80b5b9970")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99007370-fc7e-482c-b2a4-1c1ccfa8d1b7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -0.35) (xy -0.6 -0.35) (xy -0.6 -1.15) (xy -1.6 -1.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a5d0a85a-ed18-4357-9fdc-ae47e3809301")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 1.15) (xy -0.6 1.15) (xy -0.6 0.35) (xy -1.6 0.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e7827cf0-1523-47c9-be63-e31243ba037f")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6 -1.15) (xy 0.6 -1.15) (xy 0.6 -0.35) (xy 1.6 -0.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "dc4caff0-fd44-4110-9006-37554ca2187b")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6 0.35) (xy 0.6 0.35) (xy 0.6 1.15) (xy 1.6 1.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4803114c-563a-4bbc-bc0e-6e162522e876")
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0.85 180)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04233333333)
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a509adc9-af23-4e7b-9a45-775c21fc5fd5")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04233333333)
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a57c8b85-b3d9-4821-9fce-f2f71d4914be")
+	)
+	(pad "3" smd roundrect
+		(at 1.1 -0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04233333333)
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "af1a1383-e244-4a69-8952-7a35e762006e")
+	)
+	(pad "4" smd roundrect
+		(at -1.1 -0.85 180)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04233333333)
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "4918a320-2027-4d33-a40d-3b87c8691da0")
+	)
+	(embedded_fonts no)
+)

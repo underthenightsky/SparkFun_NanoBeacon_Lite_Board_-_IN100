@@ -1,0 +1,61 @@
+(footprint "PAD.03X.03"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Electrically Conductive Pad 0.03\" Circle Used as a test point connection for pogo pins or other debugging tools.\n\nSpecifications:\n• Area: 0.03\" x 0.03\"\n\nExample device(s):\n\n• TEST_POINT")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "81882301-7fab-40c2-a742-f0311ad2d0f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8a4a711a-4722-4dfc-a608-41efda0ab005")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28fe63cc-ebe4-43e3-9a78-0c2bbc027ac0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5051c08-8bda-4aab-b8bc-65eaacb4e27e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 0.762 0.762)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "3405ce61-1194-4af0-9be7-384c1c569d34")
+	)
+	(embedded_fonts no)
+)

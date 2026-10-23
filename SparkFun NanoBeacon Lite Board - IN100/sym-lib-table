@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SparkFun NanoBeacon Lite Board - IN100-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/SparkFun NanoBeacon Lite Board - IN100-eagle-import.kicad_sym") (options "") (descr ""))
+)

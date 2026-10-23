@@ -1,0 +1,138 @@
+(footprint "TRACE_ANTENNA_2.4GHZ_15.2MM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2.4GHz Meander PCB Trace Antenna\n\nPCB trace antenna with a 15.2 x 5.7mm footprint.\n\nBased on layout from http://www.ti.com/lit/an/swra117d/swra117d.pdf TI app note AN043.")
+	(property "Reference" "REF**"
+		(at 0 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "62f12a7e-64fd-414d-a899-90209ebacc6f")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "TRACE_ANTENNA_2.4GHZ_15.2MM"
+		(at 0 -1.016 0)
+		(layer "F.Fab")
+		(uuid "9f4cd53c-36aa-4ced-b0fb-ae32e778f0fd")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fecbf30-7fd4-4fd6-9c2d-be352d033e47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6faaff06-d1b4-473d-97b1-b09670dababa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -9.14873 -2.26127) (xy -7.15127 -2.26127) (xy -7.15127 -4.90127) (xy -4.44873 -4.90127) (xy -4.44873 -2.26127)
+			(xy -2.45127 -2.26127) (xy -2.45127 -4.90127) (xy 2.55127 -4.90127) (xy 2.55127 0.50127) (xy 1.64873 0.50127)
+			(xy 1.64873 -4.39873) (xy 0.25127 -4.39873) (xy 0.25127 0.50127) (xy -0.25127 0.50127) (xy -0.25127 -4.39873)
+			(xy -1.94873 -4.39873) (xy -1.94873 -1.75873) (xy -4.95127 -1.75873) (xy -4.95127 -4.39873) (xy -6.64873 -4.39873)
+			(xy -6.64873 -1.75873) (xy -9.65127 -1.75873) (xy -9.65127 -4.39873) (xy -11.34873 -4.39873) (xy -11.34873 -0.45873)
+			(xy -11.85127 -0.45873) (xy -11.85127 -4.90127) (xy -9.14873 -4.90127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "b7153da7-3ee7-4a28-be18-8f7f9239e08e")
+	)
+	(fp_line
+		(start -12 -5.2)
+		(end 3 -5.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9349e351-cfed-4357-a7e1-c96dd52d8c55")
+	)
+	(fp_line
+		(start -12 0)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf8c6861-3b35-4809-a6d0-7079d0205a89")
+	)
+	(fp_text user "Ground Plane"
+		(at -8 0.8 0)
+		(layer "F.Fab")
+		(uuid "b0cb7b27-4960-4349-94d5-0816672d4bc1")
+		(effects
+			(font
+				(size 0.5888 0.5888)
+				(thickness 0.0512)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Board Edge"
+		(at -7.5 -5.5 0)
+		(layer "F.Fab")
+		(uuid "9f33332d-3da6-4c15-90d8-5b1be9b2dbef")
+		(effects
+			(font
+				(size 0.5888 0.5888)
+				(thickness 0.0512)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "ANT" smd roundrect
+		(at 0 0.25)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1016)
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "f1455058-7ac0-44bb-b534-55e08ad71822")
+	)
+	(pad "GND" smd roundrect
+		(at 2.1 0.25)
+		(size 0.9 0.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1016)
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "c050213c-7c0e-4969-bf36-3f32c6125741")
+	)
+	(embedded_fonts no)
+)
