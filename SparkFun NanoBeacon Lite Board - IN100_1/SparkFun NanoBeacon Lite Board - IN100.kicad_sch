@@ -45022,7 +45022,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "1025:BAT_1025"
+		(property "Footprint" "BH1000G:BAT_BH1000G"
 			(at 195.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -45066,7 +45066,7 @@
 				)
 			)
 		)
-		(property "SF_SKU" "PRT-10592"
+		(property "SF_SKU" "BH1000G"
 			(at 195.58 73.914 0)
 			(hide yes)
 			(show_name no)
@@ -45597,7 +45597,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 58.42 0)
 			(hide yes)
 			(show_name no)
