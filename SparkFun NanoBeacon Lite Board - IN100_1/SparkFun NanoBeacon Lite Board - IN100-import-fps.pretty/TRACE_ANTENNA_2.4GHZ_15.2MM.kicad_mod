@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.27 0)
 		(layer "F.SilkS")
-		(uuid "2909e1ed-b9cb-4141-9dee-c1f79c9dbc9d")
+		(uuid "d3cf49c3-a43a-4343-b53e-b824f170414b")
 		(effects
 			(font
 				(size 0.48768 0.48768)
@@ -19,7 +19,7 @@
 	(property "Value" "TRACE_ANTENNA_2.4GHZ_15.2MM"
 		(at 0 -1.016 0)
 		(layer "F.Fab")
-		(uuid "ba4e282d-c9c3-442c-97f3-b700fb360080")
+		(uuid "ae477fb2-a2ec-41f4-ac79-f0f8c45d938f")
 		(effects
 			(font
 				(size 0.48768 0.48768)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9df2111b-df43-4075-a90a-d69441599d76")
+		(uuid "1cc3b5ed-7292-4f97-a3ba-74b3c411d756")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,13 +43,14 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1094eede-7082-47aa-85e3-f44435823d64")
+		(uuid "b937d0ba-36b9-4e5c-8692-8441676c33c7")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(net_tie_pad_groups "GND" "E1-SIGNAL" "ANT")
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
@@ -66,7 +67,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "6db271ac-1ee9-40e2-90c9-ba4546480fb7")
+		(uuid "f1847702-157c-4151-b05b-18b61bd4144f")
 	)
 	(fp_line
 		(start -12 -5.2)
@@ -76,7 +77,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5d8f5068-f3d6-4bd6-b64e-bd5821fc2260")
+		(uuid "fbf3f9ee-0f1b-4323-9dbd-9c840f8f3a63")
 	)
 	(fp_line
 		(start -12 0)
@@ -86,12 +87,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "02063362-7d5c-4a1a-a55c-7f332cd61b69")
+		(uuid "83b2e265-6bff-49b1-90f8-0c3475f1dd8f")
 	)
 	(fp_text user "Ground Plane"
 		(at -8 0.8 0)
 		(layer "F.Fab")
-		(uuid "6132818a-ae41-4a24-8936-25bc14d0d7e2")
+		(uuid "5ff2904b-b9d7-45e4-9b60-07aa702c4ea7")
 		(effects
 			(font
 				(size 0.5888 0.5888)
@@ -103,7 +104,7 @@
 	(fp_text user "Board Edge"
 		(at -7.5 -5.5 0)
 		(layer "F.Fab")
-		(uuid "b636298e-f9d6-4f5d-9286-bc09ff33f325")
+		(uuid "d4e3afe3-3da3-494f-a51f-2828956cb84a")
 		(effects
 			(font
 				(size 0.5888 0.5888)
@@ -121,7 +122,7 @@
 		(solder_paste_margin 0)
 		(zone_connect 2)
 		(thermal_bridge_angle 0)
-		(uuid "89e206dd-2b1e-4a65-a740-e6be1fc33c40")
+		(uuid "7c930315-f0da-4438-bcaf-b318557d703d")
 	)
 	(pad "GND" smd roundrect
 		(at 2.1 0.25)
@@ -132,7 +133,7 @@
 		(solder_paste_margin 0)
 		(zone_connect 2)
 		(thermal_bridge_angle 0)
-		(uuid "0872f774-a903-4f8e-b85a-979825d09d82")
+		(uuid "482a1e46-d7f5-40e6-95e7-5fa19b43d026")
 	)
 	(embedded_fonts no)
 )

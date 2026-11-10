@@ -40155,101 +40155,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Aesthetics_PROD_ID_PASTE_SILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:PRODUCT_IDENT_PASTE_SILK"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SparkFun-Aesthetics_PROD_ID_PASTE_SILK_1_0"
-				(rectangle
-					(start -2.032 -1.778)
-					(end 2.032 1.778)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Aesthetics_QWIIC_LOGO_5MM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -43399,6 +43304,26 @@
 		)
 		(uuid "fa7a8e31-41a8-4d72-8455-f1836a58cd19")
 	)
+	(label "BAT+"
+		(at 199.39 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af4bcd9b-ad7f-49f3-a9d7-406992512280")
+	)
+	(label "BAT-"
+		(at 195.58 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf6d9cd6-9ddd-4e6a-8307-5508d3f91b71")
+	)
 	(global_label "TX/IO1"
 		(shape bidirectional)
 		(at 116.84 81.28 0)
@@ -43698,80 +43623,6 @@
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
 					(reference "E1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Aesthetics_PROD_ID_PASTE_SILK")
-		(at 246.38 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2dbfe399-13c2-4ec3-8baf-86a2a2f7fab2")
-		(property "Reference" "PRO0"
-			(at 246.38 108.204 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "PROD_ID_PASTE_SILK"
-			(at 246.38 114.554 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:PRODUCT_IDENT_PASTE_SILK"
-			(at 246.38 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "SparkFun NanoBeacon Lite Board - IN100"
-				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "PRO0")
 					(unit 1)
 				)
 			)
@@ -45393,80 +45244,6 @@
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
 					(reference "#GND1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Aesthetics_PROD_ID_PASTE_SILK")
-		(at 246.38 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9aa7a2be-5b6f-4607-a9ae-b63f9bd939f9")
-		(property "Reference" "DEV0"
-			(at 246.38 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "PROD_ID_PASTE_SILK"
-			(at 246.38 122.174 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:PRODUCT_IDENT_PASTE_SILK"
-			(at 246.38 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "SparkFun NanoBeacon Lite Board - IN100"
-				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "DEV0")
 					(unit 1)
 				)
 			)
