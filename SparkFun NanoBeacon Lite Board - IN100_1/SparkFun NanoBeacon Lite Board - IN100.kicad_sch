@@ -42734,16 +42734,6 @@
 		)
 		(uuid "16749ab7-be32-4235-80ba-fab9e69ef7c5")
 	)
-	(wire
-		(pts
-			(xy 73.66 99.06) (xy 73.66 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "172b2f13-3ffb-4325-99f6-44382e64e4cb")
-	)
 	(polyline
 		(pts
 			(xy 170.18 91.44) (xy 220.98 91.44)
@@ -42836,6 +42826,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 96.52) (xy 80.01 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3441c38f-86cb-4c8c-a881-d03c0fa9c968")
+	)
+	(wire
+		(pts
 			(xy 71.12 78.74) (xy 68.58 78.74)
 		)
 		(stroke
@@ -42866,7 +42866,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 78.74 91.44)
+			(xy 83.82 91.44) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -42896,7 +42896,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 99.06) (xy 71.12 96.52)
+			(xy 71.12 96.52) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -43266,17 +43266,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 99.06) (xy 73.66 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e67a4428-76c9-4b1c-98d1-dd5eda920446")
-	)
-	(wire
-		(pts
-			(xy 78.74 91.44) (xy 78.74 99.06)
+			(xy 80.01 91.44) (xy 80.01 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -43303,6 +43293,16 @@
 			(type default)
 		)
 		(uuid "fa7a8e31-41a8-4d72-8455-f1836a58cd19")
+	)
+	(label "ANT"
+		(at 76.2 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2834d392-29d7-4d74-a60d-69eb372856cd")
 	)
 	(label "BAT+"
 		(at 199.39 58.42 0)
