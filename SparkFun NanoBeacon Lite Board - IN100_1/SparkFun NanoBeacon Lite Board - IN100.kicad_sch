@@ -128,172 +128,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:IN100_IN100"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -40678,29 +40512,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
+			(property "Reference" "BT1"
 				(at 0 4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.778 1.5113)
 					)
 					(justify bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "BATTERY-12MM_SMD"
 				(at 0 -4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.778 1.5113)
 					)
 					(justify top)
 				)
 			)
-			(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:BATTCON_12MM"
+			(property "Footprint" "BH1000G:BAT_BH1000G"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -40722,7 +40556,7 @@
 					)
 				)
 			)
-			(property "Description" "Battery - Single Cell\n\nA variety of battery chemistries, sizes, and footprints.\n\nDevice List:\n\n• 20MM_PTH -  https://www.sparkfun.com/products/783 Coin Cell Battery Holder - 20mm (PTH)\n• 20MM_PTH_KIT-  http://www.sparkfun.com/products/783 Coin Cell battery Holder - 20 mm (PTH) kit version with special mask\n• 6.8MM_PTH -  https://www.digikey.com/product-detail/en/seiko-instruments/MS621FE-FL11E/728-1057-ND/1889208?WT.srch=1&gclid=CNOQ5a6LzdQCFZS2wAodXCkE0g Coin Cell Battery Holder - 6.8MM(SMD)\n• 12MM_SMD -  https://www.sparkfun.com/products/10592 Coin Cell Battery Holder - 12mm (SMD)\n• 12MM_PTH - https://www.sparkfun.com/products/7948 Coin Cell Battery Holder - 12mm (PTH)\n• 20MM_SMD -  20mm Coin Cell Battery Holder (SMD) (2 legs)\n\n• Used on the https://www.sparkfun.com/products/11734 Big Time Watch Kit\n\n• 20MM_SMD_4LEGS -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD)\n• 20MM_SMD_4LEGS_OVERPASTE -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD) (Over-paste on the legs)\n• 24.5MM_PTH -  https://www.sparkfun.com/products/8863 Coin Cell Battery Holder - 24.5mm (PTH)\n• 9V -  9V Battery Holder - PC Mount\n\n• Used on the https://www.sparkfun.com/products/11177 SparkFun SparkPunk Sound Kit  and https://www.sparkfun.com/products/12707 SparkFun SparkPunk Sequencer Kit\n\n• 18650 -  https://www.sparkfun.com/products/13113 Battery Holder - 18650 (PTH)\n• AA -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n• AAA -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n• AA_KIT -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.\n\n• AAA_KIT -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board."
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -40734,7 +40568,7 @@
 				)
 			)
 			(property "PROD_ID" "BATT-08044"
-				(at 0 -5.842 0)
+				(at 8.89 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -40744,21 +40578,11 @@
 					)
 				)
 			)
-			(property "SF_SKU" "PRT-10592"
-				(at 0 -7.366 0)
+			(property "SF_SKU" "BH1000G"
+				(at 10.414 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40844,7 +40668,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "+"
@@ -40854,7 +40678,7 @@
 							)
 						)
 					)
-					(number "PWR@1"
+					(number "P"
 						(effects
 							(font
 								(size 0 0)
@@ -43256,6 +43080,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 50.8) (xy 204.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe7b712-6ac5-4c89-b86d-9ae528103658")
+	)
+	(wire
+		(pts
 			(xy 115.57 76.2) (xy 115.57 78.74)
 		)
 		(stroke
@@ -43314,7 +43148,7 @@
 		)
 		(uuid "af4bcd9b-ad7f-49f3-a9d7-406992512280")
 	)
-	(label "BAT-"
+	(label "GND"
 		(at 195.58 69.85 0)
 		(effects
 			(font
@@ -43715,7 +43549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ddeaf23-82dc-4cb4-8761-fa1e5399b924")
-		(property "Reference" "TP4"
+		(property "Reference" "RX"
 			(at 121.92 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43776,7 +43610,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "TP4")
+					(reference "RX")
 					(unit 1)
 				)
 			)
@@ -43893,7 +43727,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:CRYSTAL-SMD-3.2X2.5MM"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -44058,7 +43892,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"
+		(property "Value" "MOMENTARY-SWITCH-SPST-SMD"
 			(at 141.732 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -44070,7 +43904,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:TACTILE_SWITCH_SMD_4.6X2.8MM"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
 			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -44168,7 +44002,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:IN100"
+		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100-import-fps:IN100"
 			(at 99.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -44368,7 +44202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9a1bf0-217d-4d71-b4bf-d97b8bd3b815")
-		(property "Reference" "TP2"
+		(property "Reference" "GND"
 			(at 86.36 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44429,7 +44263,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "TP2")
+					(reference "GND")
 					(unit 1)
 				)
 			)
@@ -44453,6 +44287,8 @@
 			(effects
 				(font
 					(size 1.778 1.5113)
+					(thickness 0.3023)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -44468,7 +44304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -44522,88 +44358,6 @@
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 204.47 54.61 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6399d814-1b49-489f-857f-49b9840d61d4")
-		(property "Reference" "D1"
-			(at 207.01 53.0224 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 207.01 55.5624 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 204.47 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 204.47 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b4f93fa2-ccf1-4df5-b29a-82167980b71e")
-		)
-		(pin "1"
-			(uuid "3f0d4287-dce4-415a-9351-f58739a9b160")
-		)
-		(instances
-			(project "SparkFun NanoBeacon Lite Board - IN100"
-				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -44931,7 +44685,7 @@
 		(pin "GND"
 			(uuid "5a23a5ed-1d25-4df0-8136-42addf23dcf6")
 		)
-		(pin "PWR@1"
+		(pin "P"
 			(uuid "c846384b-62d2-4478-896f-d38742095db8")
 		)
 		(pin "PWR@2"
@@ -45282,7 +45036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -45445,7 +45199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1c4bbe-5269-4d43-83a8-015112182930")
-		(property "Reference" "TP1"
+		(property "Reference" "VCC"
 			(at 75.438 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45504,7 +45258,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "TP1")
+					(reference "VCC")
 					(unit 1)
 				)
 			)
@@ -46039,7 +45793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d48865fe-6aea-4bc3-b61c-336296c9f4a9")
-		(property "Reference" "TP5"
+		(property "Reference" "EN"
 			(at 123.19 61.4679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46100,7 +45854,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "TP5")
+					(reference "EN")
 					(unit 1)
 				)
 			)
@@ -46139,7 +45893,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -46441,7 +46195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e496cfde-7c51-470f-80a5-9b5bb4dd98b4")
-		(property "Reference" "TP6"
+		(property "Reference" "TX"
 			(at 125.73 88.3919 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46502,7 +46256,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "TP6")
+					(reference "TX")
 					(unit 1)
 				)
 			)
