@@ -128,6 +128,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:IN100_IN100"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -40506,207 +40730,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Batteries_BATTERY-12MM_SMD"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT1"
-				(at 0 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "BATTERY-12MM_SMD"
-				(at 0 -4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "BH1000G:BAT_BH1000G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "BATT-08044"
-				(at 8.89 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SF_SKU" "BH1000G"
-				(at 10.414 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SparkFun-Batteries_BATTERY-12MM_SMD_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.524 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "P"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PWR@2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Capacitors_0.1UF-0402T-6.3V-10%-X7R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -42061,210 +42084,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Switches_MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at 0 1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 -0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "SparkFun NanoBeacon Lite Board - IN100:TACTILE_SWITCH_SMD_4.6X2.8MM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Momentary Switch (Pushbutton) - SPST\n\nNormally-open (NO) SPST momentary switches (buttons, pushbuttons).\n\nVariants PTH-12MM - 12mm square, through-hole\n\n• https://www.sparkfun.com/products/9190 Momentary Pushbutton Switch - 12mm Square (COM-09190)\n\nPTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole\n\n• https://www.sparkfun.com/products/97 Mini Pushbutton Switch (COM-00097)\n• KIT package intended for soldering kit's - only one side of pads' copper is exposed.\n\nPTH-RIGHT-ANGLE-KIT - Right-angle, through-hole\n\n• https://www.sparkfun.com/products/10791 Right Angle Tactile Button - Used on https://www.sparkfun.com/products/11734  SparkFun BigTime Watch Kit\n\nSMD-12MM - 12mm square, surface-mount\n\n• https://www.sparkfun.com/products/12993 Tactile Button - SMD (12mm) (COM-12993)\n• Used on https://www.sparkfun.com/products/11888 SparkFun PicoBoard\n\nSMD-4.5MM - 4.5mm Square Trackball Switch\n\n• Used on https://www.sparkfun.com/products/13169 SparkFun Blackberry Trackballer Breakout\n\nSMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount\n\n• Used on https://www.sparkfun.com/products/17717 SparkFun Pro Micro - RP2040\n\nSMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount\n\n• https://www.sparkfun.com/products/8720 Mini Pushbutton Switch - SMD (COM-08720)\n• Used on https://www.sparkfun.com/products/11114 Arduino Pro Mini\n• REDUNDANT package connects both switch circuits together\n\nSMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount\n\n• https://www.sparkfun.com/products/8229 Momentary Reset Switch SMD (COM-08229)\n\nSMD-6.2MM-TALL - 6.2mm square, surface mount\n\n• https://www.sparkfun.com/products/12992 Tactile Button - SMD (6mm)\n• Used on https://www.sparkfun.com/products/12651 SparkFun Digital Sandbox\n\nSMD-RIGHT-ANGLE - Right-angle, surface mount\n\n• Used on https://www.sparkfun.com/products/13036 SparkFun Block for Intel® Edison - Arduino"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "SWCH-15606"
-				(at 0 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SparkFun-Switches_MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM_1_0"
-				(circle
-					(center -2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Cut BUS trace and\nsolder other side to\nswitch I2C bus\npower source"
 		(exclude_from_sim no)
@@ -42425,22 +42244,10 @@
 		(uuid "79018030-e4b5-46c8-b779-367d8db4bfed")
 	)
 	(junction
-		(at 81.28 68.58)
+		(at 81.28 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7db8d290-8277-41ce-bbec-bc58ef0ee4ea")
-	)
-	(junction
-		(at 142.24 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2631c4a-fa45-43fe-8126-ffdfad7dd852")
-	)
-	(junction
-		(at 81.28 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bde6668a-d296-41d8-a038-7f2efe1ba9af")
+		(uuid "d0a4b9c0-ce17-40eb-afab-37bdd95066e4")
 	)
 	(junction
 		(at 132.08 66.04)
@@ -42490,7 +42297,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 66.04) (xy 142.24 66.04)
+			(xy 132.08 66.04) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -42517,16 +42324,6 @@
 			(type default)
 		)
 		(uuid "0a397efa-24b9-4804-8e76-551b254036c9")
-	)
-	(wire
-		(pts
-			(xy 142.24 68.58) (xy 142.24 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0d8e5622-3e70-4f28-8604-e5dc556e5013")
 	)
 	(wire
 		(pts
@@ -42570,23 +42367,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 104.14) (xy 81.28 96.52)
+			(xy 81.28 104.14) (xy 81.28 101.6)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "1be8f354-8a47-4850-b9b9-714bc2aed374")
-	)
-	(wire
-		(pts
-			(xy 142.24 78.74) (xy 142.24 81.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1e740e20-c11b-448f-bb3d-c6db07c5c2f6")
 	)
 	(wire
 		(pts
@@ -42627,6 +42414,16 @@
 			(type default)
 		)
 		(uuid "25271512-781c-43e3-9085-6c71872adc89")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2d580623-33c4-416c-ad27-d8b69d98f9f3")
 	)
 	(wire
 		(pts
@@ -42950,16 +42747,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 66.04) (xy 144.78 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9a4286e0-f77c-4ae5-9084-5164aaf52dc3")
-	)
-	(wire
-		(pts
 			(xy 114.3 81.28) (xy 116.84 81.28)
 		)
 		(stroke
@@ -43010,6 +42797,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 66.04) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e0114e-3506-41e1-80a7-af4381a960a9")
+	)
+	(wire
+		(pts
 			(xy 76.2 83.82) (xy 76.2 81.28)
 		)
 		(stroke
@@ -43057,16 +42854,6 @@
 			(type solid)
 		)
 		(uuid "c88641d0-0563-4699-b695-7af5e63eef08")
-	)
-	(wire
-		(pts
-			(xy 81.28 68.58) (xy 81.28 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c9b5c861-fbe0-4750-8389-a9b634ba7b5b")
 	)
 	(wire
 		(pts
@@ -43549,7 +43336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ddeaf23-82dc-4cb4-8761-fa1e5399b924")
-		(property "Reference" "RX"
+		(property "Reference" "RX1"
 			(at 121.92 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43571,7 +43358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 124.46 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -43610,7 +43397,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "RX")
+					(reference "RX1")
 					(unit 1)
 				)
 			)
@@ -43871,105 +43658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Switches_MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM")
-		(at 142.24 73.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "481e1223-ecb3-45cc-9e37-749443672b43")
-		(property "Reference" "RST0"
-			(at 143.764 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "MOMENTARY-SWITCH-SPST-SMD"
-			(at 141.732 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
-			(at 142.24 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "SWCH-15606"
-			(at 142.24 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8c222aa-5c8b-4303-b49f-8d0c3ed15c71")
-		)
-		(pin "2"
-			(uuid "9ec729f7-035e-4a27-868c-586b1c5daf07")
-		)
-		(pin "3"
-			(uuid "8376aea6-abb1-408b-a40a-f538ede21af7")
-		)
-		(pin "4"
-			(uuid "39878be1-9c14-478c-b75d-7805062f6090")
-		)
-		(instances
-			(project "SparkFun NanoBeacon Lite Board - IN100"
-				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "RST0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun NanoBeacon Lite Board - IN100-eagle-import:IN100_IN100")
 		(at 99.06 81.28 0)
 		(unit 1)
@@ -44202,7 +43890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9a1bf0-217d-4d71-b4bf-d97b8bd3b815")
-		(property "Reference" "GND"
+		(property "Reference" "GND1"
 			(at 86.36 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44224,7 +43912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 81.28 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -44263,7 +43951,122 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "GND")
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 195.58 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "535f4ba2-a606-4b40-861b-d03fd4048b62")
+		(property "Reference" "BT1"
+			(at 199.39 60.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 199.39 62.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3009_1x2450"
+			(at 195.58 61.976 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 61.976 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 195.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 195.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 195.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 195.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c09759e-c7e2-439b-bc6e-26a98f971871")
+		)
+		(pin "2"
+			(uuid "2dbdaf6d-091b-44b0-90ed-c75080869ad9")
+		)
+		(instances
+			(project "SparkFun NanoBeacon Lite Board - IN100"
+				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -44511,190 +44314,6 @@
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
 					(reference "#SUPPLY2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-PowerSymbols_GND")
-		(at 142.24 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71298fd3-d794-4580-9a60-a1601b396331")
-		(property "Reference" "#GND12"
-			(at 142.24 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3af4fc89-26d5-48ce-b2b6-b6662cef0e34")
-		)
-		(instances
-			(project "SparkFun NanoBeacon Lite Board - IN100"
-				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "#GND12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-Batteries_BATTERY-12MM_SMD")
-		(at 195.58 63.5 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7eec4c71-0b31-46e0-b64f-24041857e4f4")
-		(property "Reference" "BT1"
-			(at 199.898 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "BATTERY-12MM_SMD"
-			(at 191.262 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "BH1000G:BAT_BH1000G"
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "BATT-08044"
-			(at 195.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SF_SKU" "BH1000G"
-			(at 195.58 73.914 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "GND"
-			(uuid "5a23a5ed-1d25-4df0-8136-42addf23dcf6")
-		)
-		(pin "P"
-			(uuid "c846384b-62d2-4478-896f-d38742095db8")
-		)
-		(pin "PWR@2"
-			(uuid "8fffb8c8-f2b8-4bce-b6a6-4a160e5b87ce")
-		)
-		(instances
-			(project "SparkFun NanoBeacon Lite Board - IN100"
-				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -45199,7 +44818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1c4bbe-5269-4d43-83a8-015112182930")
-		(property "Reference" "VCC"
+		(property "Reference" "VCC1"
 			(at 75.438 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45219,7 +44838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 78.74 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -45258,7 +44877,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "VCC")
+					(reference "VCC1")
 					(unit 1)
 				)
 			)
@@ -45793,7 +45412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d48865fe-6aea-4bc3-b61c-336296c9f4a9")
-		(property "Reference" "EN"
+		(property "Reference" "EN1"
 			(at 123.19 61.4679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45815,7 +45434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 125.73 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -45854,7 +45473,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "EN")
+					(reference "EN1")
 					(unit 1)
 				)
 			)
@@ -46195,7 +45814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e496cfde-7c51-470f-80a5-9b5bb4dd98b4")
-		(property "Reference" "TX"
+		(property "Reference" "TX1"
 			(at 125.73 88.3919 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46217,7 +45836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -46256,7 +45875,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "TX")
+					(reference "TX1")
 					(unit 1)
 				)
 			)
@@ -46335,6 +45954,83 @@
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
 					(reference "#GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f959b3ea-3cf0-46bb-bf79-63d373a1775c")
+		(property "Reference" "CTS1"
+			(at 77.978 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c60b9d8-fe80-4a8e-8358-2f2e274e0f1c")
+		)
+		(instances
+			(project "SparkFun NanoBeacon Lite Board - IN100"
+				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
+					(reference "CTS1")
 					(unit 1)
 				)
 			)

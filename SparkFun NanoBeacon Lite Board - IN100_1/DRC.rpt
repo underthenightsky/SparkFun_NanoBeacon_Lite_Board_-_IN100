@@ -1,191 +1,138 @@
 ** Drc report for SparkFun NanoBeacon Lite Board - IN100.kicad_pcb **
-** Created on 2026-11-13T10:48:22 **
+** Created on 2026-11-23T17:49:26 **
 ** Report includes: Errors, Warnings **
 
-** Found 19 DRC violations **
+** Found 33 DRC violations **
 [shorting_items]: Items shorting two nets (nets GND and /ANT)
     Local override; error
     @(147.7011 mm, 93.0160 mm): Pad GND [GND] of E1 on F.Cu
-    @(153.2001 mm, 98.0908 mm): Track [/ANT] on F.Cu, length 1.7242 mm
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(151.6011 mm, 106.3556 mm): Reference field of TP2
-    @(153.8011 mm, 106.4556 mm): Reference field of TP1
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(151.6011 mm, 106.3556 mm): Reference field of TP2
-    @(149.2011 mm, 106.3556 mm): Reference field of TP6
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(146.6011 mm, 106.3556 mm): Reference field of TP4
-    @(144.1011 mm, 106.3556 mm): Reference field of TP5
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(142.4688 mm, 104.4361 mm): Segment of R2 on F.Silkscreen
-    @(143.4891 mm, 104.3716 mm): Segment of RST0 on F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(142.7061 mm, 103.5286 mm): Reference field of R2
-    @(142.1511 mm, 102.9716 mm): Circle of RST0 on F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(142.1511 mm, 101.4476 mm): Reference field of RST0
-    @(143.8211 mm, 100.7926 mm): Segment of Y1 on F.Silkscreen
-[silk_over_copper]: Silkscreen clipped by solder mask
+    @(153.2001 mm, 98.0908 mm): Track [/ANT] on F.Cu, length 1.0690 mm
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(148.0816 mm, 110.7786 mm): Footprint BT1
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(148.0816 mm, 110.7786 mm): Footprint BT1
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(148.0816 mm, 110.7786 mm): Footprint BT1
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(148.0816 mm, 110.7786 mm): Footprint BT1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(161.8011 mm, 114.7036 mm): Zone [GND] on B.Cu, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[lib_footprint_mismatch]: Footprint 'IN100' does not match copy in library 'SparkFun NanoBeacon Lite Board - IN100-import-fps'
     Local override; warning
-    @(145.1481 mm, 99.2656 mm): Segment of Y1 on F.Silkscreen
-    @(144.5211 mm, 100.2656 mm): Pad 2 [GND] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(145.1481 mm, 99.2656 mm): Segment of Y1 on F.Silkscreen
-    @(144.5211 mm, 98.5656 mm): Pad 3 [Net-(U1-XO_N)] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(143.0211 mm, 98.0386 mm): Segment of Y1 on F.Silkscreen
-    @(144.5211 mm, 98.5656 mm): Pad 3 [Net-(U1-XO_N)] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(143.0211 mm, 98.0386 mm): Segment of Y1 on F.Silkscreen
-    @(142.3211 mm, 98.5656 mm): Pad 4 [GND] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(141.6941 mm, 99.5656 mm): Segment of Y1 on F.Silkscreen
-    @(142.3211 mm, 100.2656 mm): Pad 1 [Net-(U1-XO_P)] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(141.6941 mm, 99.5656 mm): Segment of Y1 on F.Silkscreen
-    @(142.3211 mm, 98.5656 mm): Pad 4 [GND] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(143.8211 mm, 100.7926 mm): Segment of Y1 on F.Silkscreen
-    @(142.3211 mm, 100.2656 mm): Pad 1 [Net-(U1-XO_P)] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(143.8211 mm, 100.7926 mm): Segment of Y1 on F.Silkscreen
-    @(144.5211 mm, 100.2656 mm): Pad 2 [GND] of Y1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(142.1511 mm, 101.4476 mm): Reference field of RST0
-    @(142.3211 mm, 100.2656 mm): Pad 1 [Net-(U1-XO_P)] of Y1 on F.Cu
-[lib_footprint_mismatch]: Footprint 'STAND-OFF' does not match copy in library 'SparkFun NanoBeacon Lite Board - IN100-import-fps'
-    Local override; warning
-    @(160.9011 mm, 118.5036 mm): Footprint H2
+    @(148.5511 mm, 103.3036 mm): Footprint U1
 [lib_footprint_mismatch]: Footprint 'TRACE_ANTENNA_2.4GHZ_15.2MM' does not match copy in library 'SparkFun NanoBeacon Lite Board - IN100-import-fps'
     Local override; warning
     @(153.2011 mm, 97.5160 mm): Footprint E1
-[silk_edge_clearance]: Silkscreen clipped by board edge
+[silk_overlap]: Silkscreen clearance
     Rule: board setup constraints silk; warning
-    @(130.4011 mm, 87.7036 mm): Rectangle on Edge.Cuts
-    @(148.2821 mm, 145.4626 mm): Footprint text of BT1 (-)
+    @(146.6011 mm, 106.3556 mm): Reference field of RX1
+    @(144.1011 mm, 106.3556 mm): Reference field of EN1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(151.6011 mm, 106.3556 mm): Reference field of GND1
+    @(149.2011 mm, 106.3556 mm): Reference field of TX1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(148.9761 mm, 102.1336 mm): Reference field of R2
+    @(150.3011 mm, 101.5536 mm): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(149.2134 mm, 101.2261 mm): Segment of R2 on F.Silkscreen
+    @(148.5511 mm, 101.0536 mm): Reference field of U1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(151.6011 mm, 106.3556 mm): Reference field of GND1
+    @(153.8011 mm, 106.4556 mm): Reference field of VCC1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(151.6011 mm, 106.3556 mm): Reference field of GND1
+    @(152.3711 mm, 105.2036 mm): Reference field of C2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.8011 mm, 106.4556 mm): Reference field of VCC1
+    @(152.3711 mm, 105.2036 mm): Reference field of C2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.9761 mm, 102.1336 mm): Reference field of R2
+    @(147.7511 mm, 104.2036 mm): Polygon of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.9761 mm, 102.1336 mm): Reference field of R2
+    @(148.4511 mm, 102.2036 mm): Polygon of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.9761 mm, 102.1336 mm): Reference field of R2
+    @(148.9511 mm, 102.2036 mm): Polygon of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.9761 mm, 102.1336 mm): Reference field of R2
+    @(149.6511 mm, 102.2536 mm): Polygon of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.9761 mm, 102.1336 mm): Reference field of R2
+    @(149.6511 mm, 102.6536 mm): Polygon of U1 on F.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.5511 mm, 101.0536 mm): Reference field of U1
+    @(148.1511 mm, 100.7036 mm): Pad 2 [EN] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.8011 mm, 106.4556 mm): Reference field of VCC1
+    @(153.8011 mm, 105.9786 mm): Pad 1 [VCC] of C2 on F.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(158.7881 mm, 97.5106 mm): Segment on B.Silkscreen
+    @(152.0316 mm, 98.5286 mm): Segment of BT1 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.2987 mm, 111.3941 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(161.0741 mm, 112.4966 mm): Segment on B.Silkscreen
+    @(160.7816 mm, 110.7786 mm): PTH pad 1 [VCC] of BT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.3803 mm, 110.2694 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.3291 mm, 108.4095 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.3705 mm, 111.8602 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.8111 mm, 111.0115 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.3205 mm, 110.2252 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.0972 mm, 109.2487 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.8976 mm, 108.8838 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.8111 mm, 107.5915 mm): Zone [<no net>] on B.Silkscreen, priority 6
+    @(148.0816 mm, 110.7786 mm): Pad 2 [GND] of BT1 on B.Cu
 
-** Found 1 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(150.0251 mm, 98.7726 mm): Track [GND] on F.Cu, length 0.3479 mm
-    @(155.3011 mm, 97.7660 mm): Pad GND [GND] of E1 on F.Cu
+** Found 0 unconnected pads **
 
-** Found 35 Footprint errors **
-[duplicate_footprints]: Duplicate footprints
-    Local override; warning
-    @(156.7561 mm, 103.7336 mm): Footprint TP2
-    @(151.6011 mm, 107.8036 mm): Footprint TP2
-[duplicate_footprints]: Duplicate footprints
-    Local override; warning
-    @(156.7561 mm, 101.1936 mm): Footprint TP1
-    @(153.8011 mm, 107.9036 mm): Footprint TP1
-[net_conflict]: No corresponding pin found in schematic
-    Local override; warning
-    @(147.9011 mm, 137.1036 mm): PTH pad N [GND] of BT1
-[net_conflict]: No corresponding pin found in schematic
-    Local override; warning
-    @(147.9011 mm, 116.6036 mm): PTH pad P [/BAT+] of BT1
-[net_conflict]: No pad found for pin PWR@1 (/BAT+) in schematic
-    Local override; warning
-    @(147.9011 mm, 130.6036 mm): Footprint BT1
-[net_conflict]: No pad found for pin PWR@2 (/BAT+) in schematic
-    Local override; warning
-    @(147.9011 mm, 130.6036 mm): Footprint BT1
-[net_conflict]: No pad found for pin GND (GND) in schematic
-    Local override; warning
-    @(147.9011 mm, 130.6036 mm): Footprint BT1
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:0402-TIGHT doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT)
-    Local override; warning
-    @(149.7711 mm, 98.5266 mm): Footprint C1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(149.7711 mm, 98.5266 mm): Footprint C1
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:0402-TIGHT doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT)
-    Local override; warning
-    @(156.1211 mm, 107.5436 mm): Footprint C2
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(156.1211 mm, 107.5436 mm): Footprint C2
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:0402-TIGHT doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT)
-    Local override; warning
-    @(147.2311 mm, 98.5266 mm): Footprint C3
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(147.2311 mm, 98.5266 mm): Footprint C3
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:TRACE_ANTENNA_2.4GHZ_15.2MM doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:TRACE_ANTENNA_2.4GHZ_15.2MM)
-    Local override; warning
-    @(153.2011 mm, 97.5160 mm): Footprint E1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(153.2011 mm, 97.5160 mm): Footprint E1
-[missing_footprint]: Missing footprint FD1 (FIDUCIAL1X2)
-    Local override; warning
-[missing_footprint]: Missing footprint FD2 (FIDUCIAL1X2)
-    Local override; warning
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:FIDUCIAL-1X2 doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2)
-    Local override; warning
-    @(155.4861 mm, 115.7986 mm): Footprint FD3
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(155.4861 mm, 115.7986 mm): Footprint FD3
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:FIDUCIAL-1X2 doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2)
-    Local override; warning
-    @(155.4861 mm, 115.7986 mm): Footprint FD4
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(155.4861 mm, 115.7986 mm): Footprint FD4
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:CREATIVE_COMMONS doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:CREATIVE_COMMONS)
-    Local override; warning
-    @(125.6411 mm, 143.1036 mm): Footprint FRAME1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(125.6411 mm, 143.1036 mm): Footprint FRAME1
-[missing_footprint]: Missing footprint H1 (STAND-OFF)
-    Local override; warning
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:STAND-OFF doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:STAND-OFF)
-    Local override; warning
-    @(160.9011 mm, 118.5036 mm): Footprint H2
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(160.9011 mm, 118.5036 mm): Footprint H2
-[missing_footprint]: Missing footprint LOGO1 (OSHW-LOGOS)
-    Local override; warning
-[missing_footprint]: Missing footprint LOGO2 (SFE_LOGO_NAME_FLAME.1_INCH)
-    Local override; warning
-[missing_footprint]: Missing footprint LOGO3 (QWIIC_LOGO_5MM)
-    Local override; warning
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:TACTILE_SWITCH_SMD_4.6X2.8MM doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:TACTILE_SWITCH_SMD_4.6X2.8MM)
-    Local override; warning
-    @(142.1511 mm, 102.9716 mm): Footprint RST0
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(142.1511 mm, 102.9716 mm): Footprint RST0
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:IN100 doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:IN100)
-    Local override; warning
-    @(148.5011 mm, 101.8286 mm): Footprint U1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(148.5011 mm, 101.8286 mm): Footprint U1
-[footprint_symbol_mismatch]: SparkFun NanoBeacon Lite Board - IN100-import-fps:CRYSTAL-SMD-3.2X2.5MM doesn't match footprint given by symbol (SparkFun NanoBeacon Lite Board - IN100:CRYSTAL-SMD-3.2X2.5MM)
-    Local override; warning
-    @(143.4211 mm, 99.4156 mm): Footprint Y1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
-    Local override; warning
-    @(143.4211 mm, 99.4156 mm): Footprint Y1
+** Found 0 Footprint errors **
 
 ** Ignored checks **
     - Footprint has no courtyard defined
