@@ -352,6 +352,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun NanoBeacon Lite Board - IN100-eagle-import:IN100_IN100"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -42238,10 +42378,16 @@
 		(uuid "11d8f8e7-431a-4307-8dd7-cdaa958fb4eb")
 	)
 	(junction
-		(at 120.65 66.04)
+		(at 68.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79018030-e4b5-46c8-b779-367d8db4bfed")
+		(uuid "3158e009-6ce6-4ad6-a5c4-9ebda5ce0ba4")
+	)
+	(junction
+		(at 78.74 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c93049b-afd0-4ed7-b7d4-ef62cfeadbdd")
 	)
 	(junction
 		(at 81.28 101.6)
@@ -42324,6 +42470,16 @@
 			(type default)
 		)
 		(uuid "0a397efa-24b9-4804-8e76-551b254036c9")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c62d7b1-7e69-4d72-b29e-ac9e30372c6d")
 	)
 	(wire
 		(pts
@@ -42647,7 +42803,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 120.65 66.04)
+			(xy 114.3 66.04) (xy 132.08 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -42817,6 +42973,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 66.04) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1012fc9-e87c-49c1-871d-5293699215c3")
+	)
+	(wire
+		(pts
 			(xy 114.3 91.44) (xy 116.84 91.44)
 		)
 		(stroke
@@ -42824,16 +42990,6 @@
 			(type solid)
 		)
 		(uuid "c114d86c-996d-4baf-9842-2105a055b432")
-	)
-	(wire
-		(pts
-			(xy 120.65 66.04) (xy 132.08 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c577d91e-3712-45e1-bda9-c36c5aeacde4")
 	)
 	(wire
 		(pts
@@ -42884,6 +43040,16 @@
 			(type default)
 		)
 		(uuid "d6d74faa-608c-4683-b96a-eae5b40da42a")
+	)
+	(wire
+		(pts
+			(xy 78.74 64.77) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84173ab-2550-44a9-a66d-aef9fe3d55dd")
 	)
 	(wire
 		(pts
@@ -43358,7 +43524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 124.46 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -43912,7 +44078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 81.28 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -44807,6 +44973,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 78.74 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a627d71c-4e66-4350-93ee-122f93e072df")
+		(property "Reference" "R1"
+			(at 81.28 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 81.28 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.962 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fa6ba5e-a001-4dfe-80dc-3da1c5a0fb56")
+		)
+		(pin "1"
+			(uuid "d46cf86d-5cc0-4704-a987-19d1bedea555")
+		)
+		(instances
+			(project "SparkFun NanoBeacon Lite Board - IN100"
+				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 78.74 72.39 90)
 		(unit 1)
@@ -44818,7 +45066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1c4bbe-5269-4d43-83a8-015112182930")
-		(property "Reference" "VCC1"
+		(property "Reference" "VDDQ1"
 			(at 75.438 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44838,7 +45086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 78.74 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -44877,7 +45125,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "VCC1")
+					(reference "VDDQ1")
 					(unit 1)
 				)
 			)
@@ -45167,6 +45415,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c00ecc22-8858-411d-8836-b42cbac4d47c")
+		(property "Reference" "DTR1"
+			(at 46.228 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 49.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b064145f-9273-4043-8ece-bd24308de097")
+		)
+		(instances
+			(project "SparkFun NanoBeacon Lite Board - IN100"
+				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
+					(reference "DTR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun NanoBeacon Lite Board - IN100-eagle-import:SparkFun-PowerSymbols_VCC")
 		(at 81.28 63.5 0)
 		(unit 1)
@@ -45395,85 +45720,6 @@
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
 					(reference "#SUPPLY5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d48865fe-6aea-4bc3-b61c-336296c9f4a9")
-		(property "Reference" "EN1"
-			(at 123.19 61.4679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 123.19 64.0079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 125.73 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdb38291-580a-4b8c-88d2-ca962f196d45")
-		)
-		(instances
-			(project "SparkFun NanoBeacon Lite Board - IN100"
-				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "EN1")
 					(unit 1)
 				)
 			)
@@ -45836,7 +46082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -45991,7 +46237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 81.28 96.52 0)
 			(hide yes)
 			(show_name no)

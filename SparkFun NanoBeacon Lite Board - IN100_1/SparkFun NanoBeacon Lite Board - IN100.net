@@ -1,0 +1,2219 @@
+(export
+	(version "E")
+	(design
+		(source "/home/joseph/Documents/GitHub/SparkFun_NanoBeacon_Lite_Board_-_IN100/SparkFun NanoBeacon Lite Board - IN100_1/SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+		(date "2026-11-24T14:39:18")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "BT1")
+			(value "Battery_Cell")
+			(footprint "Battery:BatteryHolder_Keystone_3009_1x2450")
+			(description "Single-cell battery")
+			(fields
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
+				(field
+					(name "Footprint") "Battery:BatteryHolder_Keystone_3009_1x2450")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single-cell battery")
+			)
+			(libsource
+				(lib "Device")
+				(part "Battery_Cell")
+				(description "Single-cell battery")
+			)
+			(property
+				(name "Sim.Device")
+				(value "V")
+			)
+			(property
+				(name "Sim.Type")
+				(value "DC")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=+ 2=-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "battery cell")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "535f4ba2-a606-4b40-861b-d03fd4048b62")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "PROD_ID") "CAP-14993")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Capacitors_0.1UF-0402T-6.3V-10%-X7R")
+				(description "0.1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			)
+			(property
+				(name "PROD_ID")
+				(value "CAP-14993")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "61e6579b-14f9-4e63-b24b-0e5f6cec78dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "PROD_ID") "CAP-14848")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Capacitors_10UF-0402T-6.3V-20%")
+				(description "10.0µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			)
+			(property
+				(name "PROD_ID")
+				(value "CAP-14848")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e0db5f4-abf4-4dba-91ea-647d95de3edb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "PROD_ID") "CAP-14993")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Capacitors_0.1UF-0402T-6.3V-10%-X7R")
+				(description "0.1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			)
+			(property
+				(name "PROD_ID")
+				(value "CAP-14993")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dafab9c3-b1f4-43ed-b61c-beae696daacc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CTS1")
+			(value "TestPoint")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f959b3ea-3cf0-46bb-bf79-63d373a1775c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DTR1")
+			(value "TestPoint")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c00ecc22-8858-411d-8836-b42cbac4d47c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "E1")
+			(value "ANTENNA-GROUNDEDTRACE-15.2MM")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:TRACE_ANTENNA_2.4GHZ_15.2MM")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:TRACE_ANTENNA_2.4GHZ_15.2MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-RF_ANTENNA-GROUNDEDTRACE-15.2MM")
+				(description "Antenna w/ Ground Connection\n\n2.4GHz antennae with signal and ground terminals.\n\n• TRACE_ANTENNA_2.4GHZ_15.2MM - Meander Trace antenna\n\n• 15.2 x 5.7mm footprint\n• Based on layout from http://www.ti.com/lit/an/swra117d/swra117d.pdf TI app note AN043.\n\n• TRACE_ANTENNA_2.4GHZ_25.7MM - Inverted F trace antenna\n\n• 25.7 x 7.5 mm footprint.\n• Based on layout from http://www.ti.com/lit/an/swru120b/swru120b.pdf TI design note DN0007.")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "280a2939-ef36-4c72-99ad-6732ca51eeea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "ANT")
+						)
+						(pin
+							(num "GND")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FD1")
+			(value "FIDUCIAL1X2")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_FIDUCIAL1X2")
+				(description "Fiducial Alignment Points\n\nPoint-of-reference for pick-and-place machines and other optical instruments.")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3031a3a6-9314-4c23-9a11-cbe053138307")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FD2")
+			(value "FIDUCIAL1X2")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_FIDUCIAL1X2")
+				(description "Fiducial Alignment Points\n\nPoint-of-reference for pick-and-place machines and other optical instruments.")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "15af7300-48c8-400a-92a9-978f0d3ef2af")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FD3")
+			(value "FIDUCIAL1X2")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_FIDUCIAL1X2")
+				(description "Fiducial Alignment Points\n\nPoint-of-reference for pick-and-place machines and other optical instruments.")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7fe7a276-6fca-432c-aa63-eb769f1d2c8a")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FD4")
+			(value "FIDUCIAL1X2")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_FIDUCIAL1X2")
+				(description "Fiducial Alignment Points\n\nPoint-of-reference for pick-and-place machines and other optical instruments.")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bc283f9d-64bf-4125-9f96-fff20d169343")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FRAME1")
+			(value "FRAME-LETTER")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:CREATIVE_COMMONS")
+			(fields
+				(field
+					(name "LAST_DATE_TIME")
+				)
+				(field
+					(name "SHEET")
+				)
+				(field
+					(name "DRAWING_NAME")
+				)
+				(field
+					(name "DESIGNER")
+				)
+				(field
+					(name "REV")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:CREATIVE_COMMONS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_FRAME-LETTER")
+				(description "Schematic Frame - Letter\n\nStandard 8.5x11 US Letter frame")
+			)
+			(property
+				(name "LAST_DATE_TIME")
+				(value "")
+			)
+			(property
+				(name "SHEET")
+				(value "")
+			)
+			(property
+				(name "DRAWING_NAME")
+				(value "")
+			)
+			(property
+				(name "DESIGNER")
+				(value "")
+			)
+			(property
+				(name "REV")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "be98b4bb-ab4b-45ed-a49b-0e8c71b3766d")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+				(unit
+					(name "B")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "GND1")
+			(value "TestPoint")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c9a1bf0-217d-4d71-b4bf-d97b8bd3b815")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "STAND-OFF")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:STAND-OFF")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:STAND-OFF")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Hardware_STAND-OFF")
+				(description "Stand Off\n\nDrill holes for mechanically mounting via screws, standoffs, etc.\n\nNote: Use the keepout ring to avoid running the screw head into surrounding components. Variant Overviews\n\n• STAND-OFF - Mechanical footprint for a #4 phillips button head screw.\n• STAND-OFF-TIGHT - Mechanical footprint for a #4 phillips button head screw,\n\nExample SparkFun Products\n\n• https://www.sparkfun.com/products/10453 Screw - Phillips Head (1/4\", 4-40, 10 pack) (PRT-10453)\n• https://www.sparkfun.com/products/10452 Screw - Phillips Head (1/2\", 4-40, 10 pack) (PRT-10452)\n• https://www.sparkfun.com/products/10451 Screw - Phillips Head (3/4\", 4-40, 10 pack) (PRT-10451)\n• https://www.sparkfun.com/products/10450 Screw - Phillips Head (1\", 4-40, 10 pack) (PRT-10450)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "963e5920-80da-4164-99c5-bbf353557aba")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "STAND-OFF")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:STAND-OFF")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:STAND-OFF")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Hardware_STAND-OFF")
+				(description "Stand Off\n\nDrill holes for mechanically mounting via screws, standoffs, etc.\n\nNote: Use the keepout ring to avoid running the screw head into surrounding components. Variant Overviews\n\n• STAND-OFF - Mechanical footprint for a #4 phillips button head screw.\n• STAND-OFF-TIGHT - Mechanical footprint for a #4 phillips button head screw,\n\nExample SparkFun Products\n\n• https://www.sparkfun.com/products/10453 Screw - Phillips Head (1/4\", 4-40, 10 pack) (PRT-10453)\n• https://www.sparkfun.com/products/10452 Screw - Phillips Head (1/2\", 4-40, 10 pack) (PRT-10452)\n• https://www.sparkfun.com/products/10451 Screw - Phillips Head (3/4\", 4-40, 10 pack) (PRT-10451)\n• https://www.sparkfun.com/products/10450 Screw - Phillips Head (1\", 4-40, 10 pack) (PRT-10450)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "11ba37ca-2a97-4a86-a12e-21bc95ed7de8")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "LOGO1")
+			(value "OSHW-LOGOS")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:OSHW-LOGO-S")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:OSHW-LOGO-S")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_OSHW-LOGOS")
+				(description "Open-Source Hardware (OSHW) Logo\n\nThis logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW http://freedomdefined.org/OSHW")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6a0585f1-9479-4837-91b4-37f2ec7c32b2")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "LOGO2")
+			(value "SFE_LOGO_NAME_FLAME.1_INCH")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:SFE_LOGO_NAME_FLAME_.1")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:SFE_LOGO_NAME_FLAME_.1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_SFE_LOGO_NAME_FLAME.1_INCH")
+				(description "SparkFun Font Logo w/ Flame\n\nThis is the SparkFun full logo. The logo on the schematic will always be the same size; the package variant is the height of the flame part of the logo. Default layer for the logo on the board is tSilk.")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1eb10dc-715a-4246-ac14-d56f7cd9ddf2")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "LOGO3")
+			(value "QWIIC_LOGO_5MM")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100:QWIIC_5MM")
+			(fields
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:QWIIC_5MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Aesthetics_QWIIC_LOGO_5MM")
+				(description "Qwiic Logos for placement on schematic and PCB. The 5.5mm silk logo is best for placing next to Qwiic connector.")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "86ab8f99-f785-4c74-9a43-76fceb65b7a5")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a627d71c-4e66-4350-93ee-122f93e072df")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "PROD_ID") "RES-14342")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Resistors_1KOHM-0402T-1/16W-1%")
+				(description "1kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia")
+			)
+			(property
+				(name "PROD_ID")
+				(value "RES-14342")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f61a343-6dd7-42ec-9bc3-944b758cbb57")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RX1")
+			(value "TestPoint")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3ddeaf23-82dc-4cb4-8761-fa1e5399b924")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TX1")
+			(value "TestPoint")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e496cfde-7c51-470f-80a5-9b5bb4dd98b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "IN100")
+			(footprint "SparkFun NanoBeacon Lite Board - IN100-import-fps:IN100")
+			(fields
+				(field
+					(name "PROD_ID") "IC-17260")
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100-import-fps:IN100")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "IN100_IN100")
+				(description "")
+			)
+			(property
+				(name "PROD_ID")
+				(value "IC-17260")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "48336250-0653-4df2-9266-4aaa1e045520")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "VCC1")
+			(value "TestPoint")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab1c4bbe-5269-4d43-83a8-015112182930")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Y1")
+			(value "CRYSTAL-26MHZSMD-3.2X2.5")
+			(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+			(fields
+				(field
+					(name "PROD_ID") "XTAL-12454")
+				(field
+					(name "Footprint") "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+				(part "SparkFun-Clocks_CRYSTAL-26MHZSMD-3.2X2.5")
+				(description "26MHz Crystal w/ Ground Pin\n\nhttp://www.digikey.com/product-detail/en/epson/TSX-3225%2026.0000MF09Z-AC3/SER3627CT-ND/1802878 Digikey Example\n\n• Frequency: 26MHz\n• Frequency Stability: &plusmn;9ppm\n• Frequency Tolerance: &plusmn;10ppm\n• Load Capacitance: 9pF\n\nSparkFun Products:\n\n• SparkFun ESP32 Thing\n• SparkFun ESP8266 Thing Dev Board")
+			)
+			(property
+				(name "PROD_ID")
+				(value "XTAL-12454")
+			)
+			(property
+				(name "Sheetname")
+				(value "Unchanged_IN100_1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SparkFun NanoBeacon Lite Board - IN100.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "445ace12-bd5e-42eb-a0ec-0f8256b100d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Battery_Cell")
+			(description "Single-cell battery")
+			(fields
+				(field
+					(name "Reference") "BT")
+				(field
+					(name "Value") "Battery_Cell")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single-cell battery")
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "IN100_IN100")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:IN100")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "PROD_ID") "IC-17260")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "XO_N")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "XO_P")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "MGPIO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "MGPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "MGPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "SW0")
+					(type "output")
+				)
+				(pin
+					(num "7")
+					(name "SW1")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "RX/GPIO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "TX/GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "MGPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "VDDQ")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "RTC_P")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "RTC_N")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "RF_TX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "18")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "19")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Aesthetics_FIDUCIAL1X2")
+			(description "Fiducial Alignment Points\n\nPoint-of-reference for pick-and-place machines and other optical instruments.")
+			(fields
+				(field
+					(name "Reference") "FD")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:FIDUCIAL-1X2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Alignment Points\n\nPoint-of-reference for pick-and-place machines and other optical instruments.")
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Aesthetics_FRAME-LETTER")
+			(description "Schematic Frame - Letter\n\nStandard 8.5x11 US Letter frame")
+			(fields
+				(field
+					(name "Reference") "FRAME")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:CREATIVE_COMMONS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schematic Frame - Letter\n\nStandard 8.5x11 US Letter frame")
+				(field
+					(name "LAST_DATE_TIME")
+				)
+				(field
+					(name "SHEET")
+				)
+				(field
+					(name "DRAWING_NAME")
+				)
+				(field
+					(name "DESIGNER")
+				)
+				(field
+					(name "REV")
+				)
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Aesthetics_OSHW-LOGOS")
+			(description "Open-Source Hardware (OSHW) Logo\n\nThis logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW http://freedomdefined.org/OSHW")
+			(fields
+				(field
+					(name "Reference") "LOGO")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:OSHW-LOGO-S")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Open-Source Hardware (OSHW) Logo\n\nThis logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW http://freedomdefined.org/OSHW")
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Aesthetics_QWIIC_LOGO_5MM")
+			(description "Qwiic Logos for placement on schematic and PCB. The 5.5mm silk logo is best for placing next to Qwiic connector.")
+			(fields
+				(field
+					(name "Reference") "LOGO")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:QWIIC_5MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Qwiic Logos for placement on schematic and PCB. The 5.5mm silk logo is best for placing next to Qwiic connector.")
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Aesthetics_SFE_LOGO_NAME_FLAME.1_INCH")
+			(description "SparkFun Font Logo w/ Flame\n\nThis is the SparkFun full logo. The logo on the schematic will always be the same size; the package variant is the height of the flame part of the logo. Default layer for the logo on the board is tSilk.")
+			(fields
+				(field
+					(name "Reference") "LOGO")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:SFE_LOGO_NAME_FLAME_.1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SparkFun Font Logo w/ Flame\n\nThis is the SparkFun full logo. The logo on the schematic will always be the same size; the package variant is the height of the flame part of the logo. Default layer for the logo on the board is tSilk.")
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Capacitors_0.1UF-0402T-6.3V-10%-X7R")
+			(description "0.1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "0.1uF")
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+				(field
+					(name "PROD_ID") "CAP-14993")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Capacitors_10UF-0402T-6.3V-20%")
+			(description "10.0µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10uF")
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "10.0µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+				(field
+					(name "PROD_ID") "CAP-14848")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Clocks_CRYSTAL-26MHZSMD-3.2X2.5")
+			(description "26MHz Crystal w/ Ground Pin\n\nhttp://www.digikey.com/product-detail/en/epson/TSX-3225%2026.0000MF09Z-AC3/SER3627CT-ND/1802878 Digikey Example\n\n• Frequency: 26MHz\n• Frequency Stability: &plusmn;9ppm\n• Frequency Tolerance: &plusmn;10ppm\n• Load Capacitance: 9pF\n\nSparkFun Products:\n\n• SparkFun ESP32 Thing\n• SparkFun ESP8266 Thing Dev Board")
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:CRYSTAL-SMD-3.2X2.5MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "26MHz Crystal w/ Ground Pin\n\nhttp://www.digikey.com/product-detail/en/epson/TSX-3225%2026.0000MF09Z-AC3/SER3627CT-ND/1802878 Digikey Example\n\n• Frequency: 26MHz\n• Frequency Stability: &plusmn;9ppm\n• Frequency Tolerance: &plusmn;10ppm\n• Load Capacitance: 9pF\n\nSparkFun Products:\n\n• SparkFun ESP32 Thing\n• SparkFun ESP8266 Thing Dev Board")
+				(field
+					(name "PROD_ID") "XTAL-12454")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Hardware_STAND-OFF")
+			(description "Stand Off\n\nDrill holes for mechanically mounting via screws, standoffs, etc.\n\nNote: Use the keepout ring to avoid running the screw head into surrounding components. Variant Overviews\n\n• STAND-OFF - Mechanical footprint for a #4 phillips button head screw.\n• STAND-OFF-TIGHT - Mechanical footprint for a #4 phillips button head screw,\n\nExample SparkFun Products\n\n• https://www.sparkfun.com/products/10453 Screw - Phillips Head (1/4\", 4-40, 10 pack) (PRT-10453)\n• https://www.sparkfun.com/products/10452 Screw - Phillips Head (1/2\", 4-40, 10 pack) (PRT-10452)\n• https://www.sparkfun.com/products/10451 Screw - Phillips Head (3/4\", 4-40, 10 pack) (PRT-10451)\n• https://www.sparkfun.com/products/10450 Screw - Phillips Head (1\", 4-40, 10 pack) (PRT-10450)")
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:STAND-OFF")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Stand Off\n\nDrill holes for mechanically mounting via screws, standoffs, etc.\n\nNote: Use the keepout ring to avoid running the screw head into surrounding components. Variant Overviews\n\n• STAND-OFF - Mechanical footprint for a #4 phillips button head screw.\n• STAND-OFF-TIGHT - Mechanical footprint for a #4 phillips button head screw,\n\nExample SparkFun Products\n\n• https://www.sparkfun.com/products/10453 Screw - Phillips Head (1/4\", 4-40, 10 pack) (PRT-10453)\n• https://www.sparkfun.com/products/10452 Screw - Phillips Head (1/2\", 4-40, 10 pack) (PRT-10452)\n• https://www.sparkfun.com/products/10451 Screw - Phillips Head (3/4\", 4-40, 10 pack) (PRT-10451)\n• https://www.sparkfun.com/products/10450 Screw - Phillips Head (1\", 4-40, 10 pack) (PRT-10450)")
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-RF_ANTENNA-GROUNDEDTRACE-15.2MM")
+			(description "Antenna w/ Ground Connection\n\n2.4GHz antennae with signal and ground terminals.\n\n• TRACE_ANTENNA_2.4GHZ_15.2MM - Meander Trace antenna\n\n• 15.2 x 5.7mm footprint\n• Based on layout from http://www.ti.com/lit/an/swra117d/swra117d.pdf TI app note AN043.\n\n• TRACE_ANTENNA_2.4GHZ_25.7MM - Inverted F trace antenna\n\n• 25.7 x 7.5 mm footprint.\n• Based on layout from http://www.ti.com/lit/an/swru120b/swru120b.pdf TI design note DN0007.")
+			(fields
+				(field
+					(name "Reference") "E")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:TRACE_ANTENNA_2.4GHZ_15.2MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Antenna w/ Ground Connection\n\n2.4GHz antennae with signal and ground terminals.\n\n• TRACE_ANTENNA_2.4GHZ_15.2MM - Meander Trace antenna\n\n• 15.2 x 5.7mm footprint\n• Based on layout from http://www.ti.com/lit/an/swra117d/swra117d.pdf TI app note AN043.\n\n• TRACE_ANTENNA_2.4GHZ_25.7MM - Inverted F trace antenna\n\n• 25.7 x 7.5 mm footprint.\n• Based on layout from http://www.ti.com/lit/an/swru120b/swru120b.pdf TI design note DN0007.")
+			)
+			(pins
+				(pin
+					(num "ANT")
+					(name "SIGNAL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "GND")
+					(name "GND")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(part "SparkFun-Resistors_1KOHM-0402T-1/16W-1%")
+			(description "1kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "SparkFun NanoBeacon Lite Board - IN100:0402-TIGHT")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia")
+				(field
+					(name "PROD_ID") "RES-14342")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_symdir")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_symdir")
+		)
+		(library
+			(logical "SparkFun NanoBeacon Lite Board - IN100-eagle-import")
+			(uri "${KIPRJMOD}/SparkFun NanoBeacon Lite Board - IN100-eagle-import.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/ANT")
+			(class "Default")
+			(node
+				(ref "E1")
+				(pin "ANT")
+				(pinfunction "SIGNAL_ANT")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "RF_TX_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "2")
+			(name "EN")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "EN_18")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "3")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "BT1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "CTS1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "DTR1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "E1")
+				(pin "GND")
+				(pinfunction "GND_GND")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "GND1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "GND_19")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Y1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Y1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(U1-VDDQ)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "VDDQ_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "VCC1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "Net-(U1-XO_N)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "XO_N_1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Y1")
+				(pin "3")
+				(pinfunction "2_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "Net-(U1-XO_P)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "XO_P_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Y1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "RX{slash}IO0")
+			(class "Default")
+			(node
+				(ref "RX1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "RX/GPIO0_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "TX{slash}IO1")
+			(class "Default")
+			(node
+				(ref "TX1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "TX/GPIO1_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "VCC")
+			(class "Default")
+			(node
+				(ref "BT1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "VCC_17")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "10")
+			(name "unconnected-(U1-GPIO2-Pad10)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "GPIO2_10")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(U1-GPIO3-Pad11)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "GPIO3_11")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(U1-MGPIO4-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "MGPIO4_12")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(U1-MGPIO5-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "MGPIO5_5")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(U1-MGPIO6-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "MGPIO6_4")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(U1-MGPIO7-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "MGPIO7_3")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(U1-RTC_N-Pad15)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "RTC_N_15")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(U1-RTC_P-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "RTC_P_14")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(U1-SW0-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "SW0_6")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(U1-SW1-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "SW1_7")
+				(pintype "output+no_connect")
+			)
+		)
+	)
+)
