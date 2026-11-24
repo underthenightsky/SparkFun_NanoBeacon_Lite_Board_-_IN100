@@ -663,7 +663,7 @@
         "uuid": "707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
       }
     ],
-    "used_designators": "DTR1,CTS1,BT1,VCC1,TX1,RX1,GND1,EN1,VDDQ1,D1,NT1,R1,TP1-2,TP4-6",
+    "used_designators": "TX_CONV1,R1,R3,NT1,RX_CONV1,VDDQ1,D1,EN1,GND1,RX1,TP1-2,TP4-6,VCC1,TX1,BT1,CTS1,DTR1",
     "variants": []
   },
   "sheets": [

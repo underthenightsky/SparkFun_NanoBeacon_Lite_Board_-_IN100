@@ -42463,16 +42463,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 115.57 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a397efa-24b9-4804-8e76-551b254036c9")
-	)
-	(wire
-		(pts
 			(xy 68.58 64.77) (xy 68.58 66.04)
 		)
 		(stroke
@@ -42570,6 +42560,16 @@
 			(type default)
 		)
 		(uuid "25271512-781c-43e3-9085-6c71872adc89")
+	)
+	(wire
+		(pts
+			(xy 115.57 74.93) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8d8f74-4c6f-4d97-b13a-3ec624a13769")
 	)
 	(wire
 		(pts
@@ -43033,7 +43033,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 76.2) (xy 115.57 78.74)
+			(xy 115.57 74.93) (xy 115.57 78.74)
 		)
 		(stroke
 			(width 0)
@@ -43061,6 +43061,16 @@
 		)
 		(uuid "eacc9906-a942-4d89-b400-070d7b71b349")
 	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 119.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f237ca95-08a9-4e63-b7c0-af1eaa6d8e9f")
+	)
 	(polyline
 		(pts
 			(xy 170.18 134.62) (xy 220.98 134.62)
@@ -43070,6 +43080,16 @@
 			(type solid)
 		)
 		(uuid "f70179b0-0764-4f81-9a10-e2db6f5058bf")
+	)
+	(wire
+		(pts
+			(xy 119.38 67.31) (xy 119.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d03855-b85c-4092-9d4c-d8fbf9152d23")
 	)
 	(wire
 		(pts
@@ -43492,7 +43512,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.38 76.2 0)
+		(at 119.38 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43502,30 +43522,30 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ddeaf23-82dc-4cb4-8761-fa1e5399b924")
-		(property "Reference" "RX1"
-			(at 121.92 71.6279 0)
+		(property "Reference" "TX_CONV1"
+			(at 121.92 74.4219 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 121.92 74.1679 0)
+			(at 121.92 76.9619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 124.46 76.2 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43536,7 +43556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 76.2 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43547,7 +43567,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 76.2 0)
+			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43563,7 +43583,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "RX1")
+					(reference "TX_CONV1")
 					(unit 1)
 				)
 			)
@@ -44555,6 +44575,87 @@
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
 					(reference "FD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85ba5d31-2197-49ab-ab90-21d8dd919309")
+		(property "Reference" "R3"
+			(at 119.38 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 120.65 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.062 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5587272-3a85-40b5-a71f-69ac6001397c")
+		)
+		(pin "1"
+			(uuid "5d415aae-9381-467b-989c-57a794a3c037")
+		)
+		(instances
+			(project "SparkFun NanoBeacon Lite Board - IN100"
+				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -46060,7 +46161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e496cfde-7c51-470f-80a5-9b5bb4dd98b4")
-		(property "Reference" "TX1"
+		(property "Reference" "RX_CONV1"
 			(at 125.73 88.3919 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46121,7 +46222,7 @@
 		(instances
 			(project "SparkFun NanoBeacon Lite Board - IN100"
 				(path "/707f4da3-2c70-44e1-ae9a-2b7eb52b40e5"
-					(reference "TX1")
+					(reference "RX_CONV1")
 					(unit 1)
 				)
 			)
